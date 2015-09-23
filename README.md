@@ -13,6 +13,9 @@ Arquivos:
 - consulta.php: contém exemplo para consulta/obtenção do link (url) da nota fiscal gerada
 - consultaxml.php: contém exemplo para consulta/obtenção do xml completo da nota fiscal gerada
 
+ATENÇÃO!
+- Nos três arquivos é requerida a classe NuSOAP, assim você precisará baixar o NuSOAP em http://sourceforge.net/projects/nusoap/ e colocar os arquivos na pasta /lib  ou alterar a pasta, se preferir.
+
 OBS: Os arquivos possuem instruções sobre os campos necessários. Porém recomendo utilizar o layout do webservice fornecido pela MGM Tributação (faça o download no sistema da prefeitura da sua cidade), para auxiliar no processo e preenchimento dos campos. 
 
 
