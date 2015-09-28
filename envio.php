@@ -13,13 +13,13 @@
 *///////////////////////////////////////////////////////////
 require_once('lib/nusoap.php');
 
-//endereço do webservice HOMOLOGAÇÃO
+//endereço do webservice - HOMOLOGAÇÃO
 $wsdl = "http://www.mgmtributacao.com.br/issqn/wservice/wsnfe_teste_homologacao.php?wsdl";
 
-//endereço do webservice PRODUÇÃO
+//endereço do webservice - PRODUÇÃO
 //$wsdl = "http://www.mgmtributacao.com.br/issqn/wservice/wsnfeenvia.php?wsdl";
  
-//aqui cramos o objeto cliente do webservice
+//aqui criamos o objeto cliente do webservice
 $client = new nusoap_client($wsdl, 'wsdl');
  
 //obtém erro do webservice  
@@ -36,7 +36,7 @@ $result = $client->call('EnvNfe', array(
 'pass'=>'000000', //sua senha do sistema issn - 6 digitos
 'usr'=>'00.000.000/0001-00', // cnpj da sua empresa (vinculado ao usuario)
 'prf'=>'00.000.000/0001-00', //cnpj da sua prefeitura
-'ctr'=>'00001', //seu numero de controle - único, que sera usado para consulta da nota
+'ctr'=>'00001', //seu numero de controle - único - que sera usado para consulta da nota
 'cnpj'=>'00.000.000/0001-00', //cnpj do destinatário
 'cnpjn'=>'RAZAO SOCIAL LTDA', //razao social ou nome destinatario
 'ie'=>'', //inscricao estadual / rg
