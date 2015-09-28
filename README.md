@@ -1,7 +1,6 @@
 # nfsepenapolis
 
-*** Código PHP para integração via webservice ao sistema ISS Online fornecido pela empresa MGM Tributação para emissão de NFS-e (Nota Fiscal de Serviços Eletrônica) ***
-**** Alvi Jr ****
+*** Código PHP para integração via webservice ao sistema ISS Online fornecido pela empresa MGM Tributação, para emissão de NFS-e (Nota Fiscal de Serviços Eletrônica) ***
 
 Como usuário do serviço, disponibilizo esse código para auxiliar quem necessita integrar seu script ou sistema em PHP ao webservice da MGM Tributação, utilizando a classe NuSOAP.
 
@@ -14,14 +13,14 @@ Arquivos:
 - consultaxml.php: contém exemplo para consulta/obtenção do xml completo da nota fiscal gerada
 
 ATENÇÃO!
-- Nos três arquivos é requerida a classe NuSOAP, assim você precisará baixar o NuSOAP em http://sourceforge.net/projects/nusoap/ e colocar os arquivos na pasta /lib  ou alterar a pasta, se preferir.
+- É requerida a classe NuSOAP, assim você precisará baixar o NuSOAP em http://sourceforge.net/projects/nusoap/ e colocar os arquivos na pasta /lib  ou alterar a pasta ou o include, se preferir.
 
-OBS: Os arquivos possuem instruções sobre os campos necessários. Porém recomendo utilizar o layout do webservice fornecido pela MGM Tributação (faça o download no sistema da prefeitura da sua cidade), para auxiliar no processo e preenchimento dos campos. 
+OBS: Os arquivos possuem instruções sobre os campos necessários. Recomendo utilizar o layout do webservice fornecido pela MGM Tributação (faça o download no sistema da prefeitura da sua cidade), para auxiliar no processo e preenchimento dos campos. 
 
 
 INFORMAÇÕES IMPORTANTES:
 
-- Antes de colocar para funcionar em ambiente de produção, é fundamental testar no ambiente de homologação. Somente após homologar, coloque em produção, pois evita-se a geração de notas com problema de consistência.
+- Antes de colocar o seu script para funcionar em ambiente de produção, é fundamental testar no ambiente de homologação. Somente após homologar, coloque em produção, pois evita-se a geração de notas com problemas de consistência.
 
 - Para colocar seu script em produção, entre em contato com o departamento de rendas da sua prefeitura e solicite a liberação/ativação do webservice para o seu usuário.
 
