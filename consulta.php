@@ -13,7 +13,7 @@ require_once('lib/nusoap.php');
 //endereço do webservice de consulta
 $wsdl = "http://www.mgmtributacao.com.br/issqn/wservice/wsnfeconsulta.php?wsdl";
  
-//aqui cramos o objeto cliente do webservice
+//aqui criamos o objeto cliente do webservice
 $client = new nusoap_client($wsdl, 'wsdl');
 
 //obtém erro do webservice 
@@ -30,7 +30,7 @@ $result = $client->call('ConsultaNfe', array(
 'pass'=>'000000', //sua senha do sistema issn - 6 digitos
 'usr'=>'00.000.000/0001-00', // cnpj da sua empresa (vinculado ao usuario)
 'prf'=>'00.000.000/0001-00', //cnpj da sua prefeitura
-'ctr'=>'00001', //seu numero de controle - único, que foi passado no envio da nota
+'ctr'=>'00001', //seu numero de controle - único - que foi passado no envio da nota
 'tipo'=>'2' //tipo de consulta - use sempre 2
 ));
 
