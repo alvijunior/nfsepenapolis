@@ -27,3 +27,21 @@ INFORMAÇÕES IMPORTANTES:
 - Em caso de dúvidas, entre em contato comigo pelo email alvijr@gmail.com.
 
 ///////////////////////////////////////////////////////
+
+////ATUALIZAÇÃO FEITA EM 18/01/2018
+
+A partir de janeiro/2018 será necessário informar 3 novos campos no envio da nota fiscal:
+
+ssrecbr - Total faturado nos últimos 12 meses
+ssanexo - Anexo  (em qual anexo a sua empresa se encaixa, ANEXO III, IV ou v)
+ssdtini - Dada de início das atividades
+
+...no formato:
+
+'ssrecbr'=>"00.00",
+'ssanexo'=>'ANEXO III',
+'ssdtini'=>'dd/mm/aaaa'
+
+Consulte seu contador para saber em qual anexo a sua empresa se encaixa. 
+
+//////////////////////////////////////////////////////
