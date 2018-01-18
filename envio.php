@@ -68,6 +68,9 @@ $result = $client->call('EnvNfe', array(
 'iteser1'=>'52.00', //Código do item de serviço 1 (Optante pelo Simples Nacional)
 'alqser1'=>'2.00', //Alíquota do item de serviço 1 (Optante pelo Simples Nacional)
 'valser1'=>'30.90', //Valor Item Serviço 1 (Optante pelo Simples Nacional)
+'ssrecbr'=>'20000.00', //Total faturado nos últimos 12 meses - formato float
+'ssanexo'=>'ANEXO III', //Anexo do SIMPLES ao qual a empresa se encaixa
+'ssdtini'=>'13/09/2013'	//Data de início das atividades da empresa
 ));
 
 //esse é o resultado do comando, retorna array para você extrair os dados e usar como preferir - RETORNA OK se tudo estiver certo ou o erro
