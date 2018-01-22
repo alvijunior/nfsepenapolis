@@ -33,7 +33,9 @@ INFORMAÇÕES IMPORTANTES:
 A partir de janeiro/2018 será necessário informar 3 novos campos no envio da nota fiscal:
 
 ssrecbr - Total faturado nos últimos 12 meses
+
 ssanexo - Anexo  (em qual anexo a sua empresa se encaixa, ANEXO III, IV ou v)
+
 ssdtini - Dada de início das atividades
 
 ...no formato:
