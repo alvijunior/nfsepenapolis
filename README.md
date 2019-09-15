@@ -1,5 +1,7 @@
 # nfsepenapolis
 
+INTEGRAÇÃO NOTA FISCAL PENÁPOLIS-SP WEBSERVICE
+
 *** Código PHP para integração via webservice ao sistema ISS Online fornecido pela empresa MGM Tributação, para emissão de NFS-e (Nota Fiscal de Serviços Eletrônica) ***
 
 Como usuário do serviço, disponibilizo esse código para auxiliar quem necessita integrar seu script ou sistema em PHP ao webservice da MGM Tributação, utilizando a classe NuSOAP.
